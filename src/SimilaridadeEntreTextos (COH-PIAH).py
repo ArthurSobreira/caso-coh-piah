@@ -159,6 +159,7 @@ def avalia_textos(textos, ass_cp):
 
     return infec
 
+
 def main():
     ass_inf = le_assinatura()
     print()
@@ -168,4 +169,5 @@ def main():
     return print(f'O autor do texto {avalia_textos(list_txt, ass_inf)} está infectado com COH-PIAH')
 
 
-main()
+if __name__ == '__main__':
+    main()
