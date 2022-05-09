@@ -47,3 +47,24 @@ A partir da assinatura conhecida de um portador de COH-PIAH, seu programa dever�
 - Complexidade de sentença é o número total de frases divido pelo número de sentenças.
 
 - Tamanho médio de frase é a soma do número de caracteres em cada frase dividida pelo número de frases no texto (os caracteres que separam uma frase da outra não devem ser contabilizados como parte da frase).
+
+
+Após calcular esses valores para cada texto, você deve compará-los com a assinatura fornecida para os infectados por COH-PIAH. O grau de similaridade entre dois textos,  a a e  b b, é dado pela fórmula:
+
+ S_{ab} = \frac{\sum_{i=1}^6 || f_{i,a} - f_{i,b} ||}{6} S 
+ab
+​
+ = 
+6
+∑ 
+i=1
+6
+​
+ ∣∣f 
+i,a
+​
+ −f 
+i,b
+​
+ ∣∣
+​
